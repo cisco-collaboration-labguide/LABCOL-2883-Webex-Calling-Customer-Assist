@@ -30,7 +30,7 @@ theme:
   - search.suggest
   - content.action.edit
   - content.code.copy
-  logo: assets/webex-by-cisco.png
+  logo: assets/cisco-header-logo.png
 plugins:
 - search
 markdown_extensions:
