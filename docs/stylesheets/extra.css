@@ -7,3 +7,6 @@
 
 /* Owner-supplied Cisco mark: crop its canvas in CSS and blend the dark matte into the header. */
 .md-header__button.md-logo{display:block;width:108px;height:58px;overflow:hidden;padding:0;margin:.25rem .65rem .25rem .2rem;flex-shrink:0;mix-blend-mode:screen}.md-header__button.md-logo img{display:block;width:144px;height:144px;max-width:none;max-height:none;object-fit:contain;transform:translate(-18px,-43px);filter:grayscale(1) contrast(1.4)}@media(max-width:760px){.md-header__button.md-logo{width:80px;height:44px;margin-right:.3rem}.md-header__button.md-logo img{width:108px;height:108px;transform:translate(-14px,-32px)}.md-header__title{margin-left:.2rem}}
+
+/* Reduce the header logo to 70 percent of its previous size. */
+.md-header__button.md-logo{width:75.6px;height:40.6px}.md-header__button.md-logo img{width:100.8px;height:100.8px;transform:translate(-12.6px,-30.1px)}@media(max-width:760px){.md-header__button.md-logo{width:56px;height:30.8px}.md-header__button.md-logo img{width:75.6px;height:75.6px;transform:translate(-9.8px,-22.4px)}}
