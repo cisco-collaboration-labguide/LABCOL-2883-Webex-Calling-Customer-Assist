@@ -4,3 +4,6 @@
 
 /* Icon-only Word table cells must not reserve half the reading column. */
 .instruction-panel.icon-note{display:block}.instruction-panel.icon-note>div:first-child{margin-bottom:.5rem}.instruction-panel.icon-note>div:last-child{min-width:0}.instruction-panel.icon-note .lab-figure{margin:1.3rem 0 1.8rem}
+
+/* Webex by Cisco branding supplied by the lab owner. */
+.md-header__button.md-logo{display:block;padding:0;margin:.25rem .65rem .25rem .2rem;flex-shrink:0}.md-header__button.md-logo img{display:block;width:112px;height:auto;max-height:58px;object-fit:contain}@media(max-width:760px){.md-header__button.md-logo img{width:80px;max-height:42px}.md-header__button.md-logo{margin-right:.3rem}.md-header__title{margin-left:.2rem}}
