@@ -7,3 +7,6 @@
 
 /* Webex by Cisco branding supplied by the lab owner. */
 .md-header__button.md-logo{display:block;padding:0;margin:.25rem .65rem .25rem .2rem;flex-shrink:0}.md-header__button.md-logo img{display:block;width:112px;height:auto;max-height:58px;object-fit:contain}@media(max-width:760px){.md-header__button.md-logo img{width:80px;max-height:42px}.md-header__button.md-logo{margin-right:.3rem}.md-header__title{margin-left:.2rem}}
+
+/* Remove the dark image matte visually while retaining the supplied logo asset. */
+.md-header__button.md-logo{mix-blend-mode:screen}.md-header__button.md-logo img{filter:contrast(1.2)}
